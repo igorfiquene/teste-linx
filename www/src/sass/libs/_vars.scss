@@ -1,0 +1,30 @@
+/*
+|--------------------------------------------------------------------------
+| VARIABLES
+|--------------------------------------------------------------------------
+*/
+
+// Media Queries
+$to-smb: "only screen and (max-width: 320px)";
+$to-mb: "only screen and (max-width: 767px)";
+$from-lmb: "only screen and (min-width: 540px)";
+$from-ptb: "only screen and (min-width: 767px)";
+$from-ltb: "only screen and (min-width: 1023px)";
+$to-desk: "only screen and (min-width: 1200px)";
+
+// Colors Global
+$purple-light: #6E4B87;
+$purple-medium: #422755;
+$yellow-light: #FEAF3D;
+$red-light: #F04837;
+$gray-light: #E5E5E5;
+$gray-medium: #757575;
+$gray-high: #414141;
+$white: #FFFFFF;
+
+// Colors Font
+$font-gray: #414141;
+$font-purple: $purple-light;
+$font-red: $red-light;
+
+
