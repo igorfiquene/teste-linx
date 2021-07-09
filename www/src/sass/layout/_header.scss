@@ -67,6 +67,8 @@ header {
 		@media #{$from-ptb} {
 			width: 300px;
 			margin-bottom: 0px;
+			padding: 0 15px;
+			height: 39px;
 		}
 
 		.search::placeholder { font-size: 12px; }
@@ -107,6 +109,7 @@ header {
 
 			@media #{$from-ptb} {
 				width: 200px;
+				padding: 8.5px 30px;
 			}
 		}
 	}
