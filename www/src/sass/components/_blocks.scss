@@ -130,7 +130,12 @@
 		font-size: 14px;
 	}
 
-	.description { font-size: 11px; }
+	.description {
+		font-size: 11px;
+		@media #{$from-ptb} {
+			font-size: 12px;
+		}
+	}
 
 	.date-limit {
 		font-weight: 700;
@@ -156,6 +161,9 @@
 		align-items: center;
 		@media #{$from-ptb} {
 			margin-bottom: 8px;
+		}
+		&:first-of-type {
+			z-index: 2;
 		}
 		&:hover {
 			color: $white;
