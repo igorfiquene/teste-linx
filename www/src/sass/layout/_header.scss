@@ -93,9 +93,17 @@ header {
 		display: flex;
 		justify-content: space-between;
 		align-items: center;
+
+		@media #{$to-smb} {
+			flex-flow: column;
+			align-items: unset;
+		}
 		
 		span {
 			color: $white;
+			@media #{$to-smb} {
+				margin-bottom: 6px;
+			}
 			@media #{$from-ptb} {
 				margin-right: 20px;
 			}

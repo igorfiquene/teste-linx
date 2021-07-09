@@ -27,6 +27,11 @@
 		align-items: center;
 		&:last-of-type { margin-bottom: 24px * 2; }
 
+		@media #{$to-smb} {
+			display: flex;
+			flex-flow: column;
+		}
+
 		@media #{$from-ptb} {
 			display: flex;
 			flex-flow: column;
@@ -36,6 +41,10 @@
 
 		.img-container {
 			@media #{$from-ptb} {
+				width: 100%;
+			}
+
+			@media #{$to-smb} {
 				width: 100%;
 			}
 		}
@@ -82,6 +91,7 @@
 			
 			.clock {
 				@media #{$from-ptb} { display: none; }
+				@media #{$to-smb} { display: none; }
 			}
 			.clock img {
 				fill: $red-light;
