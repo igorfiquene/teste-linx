@@ -62,7 +62,7 @@ header {
 		border-radius: 8px;
 		display: flex;
 		position: relative;
-		padding: 15px 9px;
+		padding: 5px 9px;
 		margin-bottom: 20px;
 		@media #{$from-ptb} {
 			width: 300px;
@@ -101,7 +101,7 @@ header {
 			}
 		}
 		select {
-			padding: 10px 30px;
+			padding: 6px 30px;
 			border-radius: 8px;
 			border: 1px solid $white;
 			font-weight: 400;

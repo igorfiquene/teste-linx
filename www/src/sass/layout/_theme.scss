@@ -27,13 +27,11 @@ html {
 	}
 }
 
-svg path {
-	fill: $white;
-}
 
-.clock svg path {
-	fill: $red-light;
-}
+svg path { fill: $white; }
+.clock svg path { fill: $red-light; }
+
+
 
 .btn {
 	text-decoration: none;
@@ -45,6 +43,11 @@ svg path {
 	transition: .3s all ease;
 	border: 1px solid $purple-light;
 	font-size: 16px;
+	&:hover {
+		color: $purple-light !important;
+		background-color: transparent !important;
+		svg path { fill: $purple-light; }
+	}
 	&.late {
 		background-color: $red-light !important;
 		color: $white !important;
