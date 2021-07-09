@@ -5,7 +5,7 @@
 	color: $gray-medium;
 
 	@media #{$from-ptb} {
-		max-width: 876px;
+		max-width: 876px !important;
 		padding: 22px 45px !important;
 		margin: 100px auto !important;
 	}

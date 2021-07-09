@@ -28,10 +28,12 @@
 	}
 
 	p {
-		margin-bottom: 20px;
+		margin-bottom: 15px;
 		font-size: 12px;
 		color: $gray-high;
-		line-height: 1.2;
+		@media #{$from-ptb} {
+			font-size: 14px;
+		}
 	}
 
 	> div {
