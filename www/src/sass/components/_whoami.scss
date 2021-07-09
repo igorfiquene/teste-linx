@@ -1,16 +1,19 @@
 /*
 |--------------------------------------------------------------------------
-| Footer Styles
+| WhoAmI Styles
 |--------------------------------------------------------------------------
 */
 
-footer {
-	background-color: $purple-medium;
-	color: $white;
-	padding: 40px 50px;
+.whoami {
 	text-align: center;
-	line-height: 1.4;
-	font-size: 12px;
+	margin-bottom: 20px;
+	.logo {
+		margin-bottom: 40px;
+	}
+	p {
+		margin-bottom: 20px;
+		font-size: 12px;
+		color: $gray-high;
+		line-height: 1.2;
+	}
 }
-
-
