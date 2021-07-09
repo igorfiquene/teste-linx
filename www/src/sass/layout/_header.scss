@@ -5,22 +5,42 @@
 */
 
 header {
-	background-image: linear-gradient(-177deg, $purple-medium 70%, transparent calc(70% + 2px)) ;
+	background-image: linear-gradient(-177deg, $purple-medium 70%, transparent calc(70% + 2px));
 	position: relative;
 	text-align: center;
 	margin-bottom: 20px;
+
+	@media #{$from-ptb} {
+		background-image: linear-gradient(-179deg, $purple-medium 90%, transparent calc(90% + 2px));
+		height: 380px;
+		display: flex;
+		flex-flow: column;
+		align-items: center;
+		justify-content: center;
+	}
 
 	.title {
 		line-height: 7;
 		color: $white;
 		font-size: 24px;
 		font-weight: 800;
+
+		@media #{$from-ptb} {
+			line-height: 1;
+			margin-bottom: 30px;
+			font-size: 36px;
+		}
 	}
 
 	.sub-title {
 		color: $purple-light;
 		line-height: 1.4;
 		font-weight: 400;
+
+		@media #{$from-ptb} {
+			color: $white;
+			font-size: 18px;
+		}
 	}
 }
 
@@ -30,6 +50,11 @@ header {
 	background: $yellow-light;
 	border-radius: 10px;
 	margin-bottom: 40px !important;
+	@media #{$from-ptb} {
+		display: flex;
+		justify-content: space-between;
+		padding: 20px 64px !important;
+	}
 
 	// STYLE CAMPO DE BUSCA
 	.search-content {
@@ -39,11 +64,15 @@ header {
 		position: relative;
 		padding: 15px 9px;
 		margin-bottom: 20px;
+		@media #{$from-ptb} {
+			width: 300px;
+			margin-bottom: 0px;
+		}
 
 		.search::placeholder { font-size: 12px; }
 
 		.search-submit {
-			background-color: $purple-medium;
+			background-color: $purple-light;
 			color: $white;
 			font-size: 14px;
 			font-weight: 700;
@@ -62,13 +91,23 @@ header {
 		display: flex;
 		justify-content: space-between;
 		align-items: center;
-
+		
+		span {
+			color: $white;
+			@media #{$from-ptb} {
+				margin-right: 20px;
+			}
+		}
 		select {
 			padding: 10px 30px;
 			border-radius: 8px;
 			border: 1px solid $white;
 			font-weight: 400;
 			position: relative;
+
+			@media #{$from-ptb} {
+				width: 200px;
+			}
 		}
 	}
 }
