@@ -63,11 +63,11 @@ header {
 		display: flex;
 		position: relative;
 		margin-bottom: 20px;
+		padding: 0 15px;
+		height: 39px;
 		@media #{$from-ptb} {
 			width: 300px;
 			margin-bottom: 0px;
-			padding: 0 15px;
-			height: 39px;
 		}
 
 		.search::placeholder { font-size: 12px; }
@@ -125,6 +125,9 @@ header {
 				border-top: 8px solid transparent;
 				border-bottom: 8px solid transparent;
 				border-left: 10px solid $gray-high;
+				@media #{$to-smb} {
+					left: 140px;
+				}
 			}
 		}
 		select {
