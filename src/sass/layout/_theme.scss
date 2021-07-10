@@ -43,6 +43,7 @@ svg path { fill: $white; }
 	transition: .3s all ease;
 	border: 1px solid $purple-light;
 	font-size: 16px;
+	height: 36px;
 	&:hover {
 		color: $purple-light !important;
 		background-color: transparent !important;
