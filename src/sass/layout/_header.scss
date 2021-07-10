@@ -125,6 +125,7 @@ header {
 				border-top: 8px solid transparent;
 				border-bottom: 8px solid transparent;
 				border-left: 10px solid $gray-high;
+				cursor: pointer;
 				@media #{$to-smb} {
 					left: 140px;
 				}
@@ -137,6 +138,7 @@ header {
 			font-weight: 400;
 			position: relative;
 			appearance: none;
+			cursor: pointer;
 			&::-ms-expand {
 				display: none !important;
 			}

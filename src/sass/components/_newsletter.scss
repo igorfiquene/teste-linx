@@ -32,7 +32,7 @@
 			flex-flow: column;
 
 			@media #{$from-ptb} {
-				justify-content: end;
+				justify-content: flex-end;
 			}
 
 			label {
