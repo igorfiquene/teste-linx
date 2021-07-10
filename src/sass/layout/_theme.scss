@@ -72,3 +72,12 @@ svg path { fill: $white; }
 	}
 
 }
+
+.error {
+	small { color: $red-light; }
+	input { border: 1px solid $red-light !important; }
+}
+
+.success {
+	input { border: 1px solid green !important; }
+}
