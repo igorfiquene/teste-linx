@@ -52,6 +52,10 @@ header {
 	border-radius: 10px;
 	margin-bottom: 40px !important;
 	// line-height: 1;
+
+	@media #{$to-mb} {
+		margin: auto 15px 40px 15px !important;
+	}
 	@media #{$from-ptb} {
 		display: flex;
 		justify-content: space-between;
