@@ -116,8 +116,14 @@ header {
 				position: absolute;
 				top: 50%;
 				transform: translateY(-50%);
+				transform-origin: top;
+				transform: rotate(90deg);
 				right: 20px;
-				background-color: red;
+				width: 0;
+				height: 0;
+				border-top: 8px solid transparent;
+				border-bottom: 8px solid transparent;
+				border-left: 10px solid $gray-high;
 			}
 		}
 		select {

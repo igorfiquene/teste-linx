@@ -164,11 +164,14 @@
 		}
 		&:first-of-type {
 			z-index: 2;
+			margin-bottom: 0;
+
+			&:hover {
+				color: $white !important;
+				background-color: $purple-medium !important;
+			}
 		}
-		&:hover {
-			color: $white;
-			background-color: $purple-medium;
-		}
+
 	}
 
 	.details {
