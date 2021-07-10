@@ -10,6 +10,7 @@ Esse é o app criado com base no layout enviado pela Linx sobre o teste para vag
 ## Alterações
   * Observei que o layout não possuia alguns padrões de margens e paddings, então padronizei durante o desenvolvimento.
   * Observei também que o layout para Desktop possuia um campo de cadastro de newsletter e no Mobile não. Optei por deixar esse campo no Mobile, deixando também de uma maneira responsiva.
+  * Adicionei uma validação em JavaScript no campo de envio da NewsLetter. Com retorno visual e textual para o usuário
 
 ## Escolhas
   * Priorizei em Desenvolver o Layout começando pelo Mobile, já que o processamento de estilização pelo computador em sua grande maioria é mais rapido.
@@ -17,7 +18,6 @@ Esse é o app criado com base no layout enviado pela Linx sobre o teste para vag
   * Utilizei variáveis SCSS para definir alguns pardrões ( cor, media queries, tamanho do container, tipo de font... ).
   * Também decidi separar os arquivos SCSS, para ter uma fácil manutenção.
   * Decidi criar um arquivo apenas para configurações globais de estilização (_theme.scss). Como padding de botões, animação de botões, cor de svgs e entre outros.
-  * Não vi necessidade de utilizar JavaScript.
 
 ## Dificuldades
   * Tive dificuldade com a propriedade de Display Grid ( Alinhar o botão de "Ver Mais +" com base no display), mas vendo a documentação o problema foi resolvido.
