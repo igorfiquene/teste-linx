@@ -62,7 +62,6 @@ header {
 		border-radius: 8px;
 		display: flex;
 		position: relative;
-		padding: 5px 9px;
 		margin-bottom: 20px;
 		@media #{$from-ptb} {
 			width: 300px;
@@ -74,16 +73,18 @@ header {
 		.search::placeholder { font-size: 12px; }
 
 		.search-submit {
-			background-color: $purple-light;
-			color: $white;
 			font-size: 14px;
 			font-weight: 700;
 			position: absolute;
+			padding: 10px 15px !important;
 			right: 0;
 			top: 0;
 			height: 100%;
-			border-radius: 8px;
-			padding: 0 10px;
+
+			&:hover {
+				color: $white !important;
+				background-color: $purple-medium !important;
+			}
 		}
 	}
 
@@ -136,18 +137,7 @@ header {
 			&::-ms-expand {
 				display: none !important;
 			}
-
-			&::after {
-				content: '1';
-				position: absolute;
-				height: 100%;
-				top: 0;
-				right: 0;
-				background-color: blue;
-				height: 20px;
-				width: 20px;
-			}
-
+			
 			@media #{$from-ptb} {
 				width: 200px;
 				padding: 8.5px 30px;

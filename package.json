@@ -1,0 +1,14 @@
+{
+  "name": "teste-linx",
+  "version": "1.0.0",
+  "repository": "https://github.com/igorfiquene/teste-linx",
+  "scripts": {
+    "css:build": "sass --style=compressed --no-source-map ./src/sass/style.scss ./assets/css/style.css",
+    "css:watch": "sass --style=compressed --no-source-map --watch ./src/sass/style.scss ./assets/css/style.css",
+    "start": "live-server"
+  },
+  "devDependencies": {
+    "live-server": "^1.2.1",
+    "sass": "^1.35.2"
+  }
+}
