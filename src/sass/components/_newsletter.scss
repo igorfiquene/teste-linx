@@ -60,6 +60,10 @@
 				}
 			}
 
+			button {
+				height: 36px;
+			}
+
 			.btn {
 				@media #{$from-ptb} {
 					padding: 6.9px 33px;

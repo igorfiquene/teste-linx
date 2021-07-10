@@ -5,10 +5,10 @@
 */
 
 header {
-	background-image: linear-gradient(-177deg, $purple-medium 70%, transparent calc(70% + 2px));
+	background-image: linear-gradient(-179deg, $purple-medium 70%, transparent calc(70% + 2px));
 	position: relative;
 	text-align: center;
-	margin-bottom: 20px;
+	margin-bottom: 40px;
 
 	@media #{$from-ptb} {
 		background-image: linear-gradient(-179deg, $purple-medium 90%, transparent calc(90% + 2px));
@@ -20,7 +20,7 @@ header {
 	}
 
 	.title {
-		line-height: 7;
+		line-height: 10;
 		color: $white;
 		font-size: 24px;
 		font-weight: 800;
@@ -34,12 +34,13 @@ header {
 
 	.sub-title {
 		color: $purple-light;
-		line-height: 1.4;
 		font-weight: 400;
+		padding: 0 40px;
 
 		@media #{$from-ptb} {
 			color: $white;
 			font-size: 18px;
+			padding: 0;
 		}
 	}
 }
@@ -50,6 +51,7 @@ header {
 	background: $yellow-light;
 	border-radius: 10px;
 	margin-bottom: 40px !important;
+	// line-height: 1;
 	@media #{$from-ptb} {
 		display: flex;
 		justify-content: space-between;
@@ -126,6 +128,7 @@ header {
 				border-bottom: 8px solid transparent;
 				border-left: 10px solid $gray-high;
 				cursor: pointer;
+				pointer-events: none;
 				@media #{$to-smb} {
 					left: 140px;
 				}
@@ -139,6 +142,7 @@ header {
 			position: relative;
 			appearance: none;
 			cursor: pointer;
+			min-width: 180px;
 			&::-ms-expand {
 				display: none !important;
 			}
