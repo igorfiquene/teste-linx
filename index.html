@@ -33,347 +33,350 @@
 		<h2 class="sub-title">Adicione e complete tarefas para organizar melhor a sua semana. :)</h2>
 	</header>
 
-	<form class="form-search container container-limit">
-		<div class="search-content">
-			<input class="search" type="text" placeholder="Busque Tarefas">
-			<input class="search-submit btn"type="submit" value="Buscar">
-		</div>
-
-		<div class="filter-content">
-			<span>Organizar por:</span>
-			<label>
-				<select>
-					<option value="true">Prazo</option>
-					<option value="1">Prazo Curto</option>
-					<option value="2">Atrasado</option>
-				</select>
-			</label>
-		</div>
-	</form>
-
-	<div class="tasks ">
-		<div class="container-limit container">
-
-			<div class="block-task">
-				<span class="img-container">
-					<picture>
-						<img src="assets/images/mask.png" alt="Block Imagem">
-					</picture>
-				</span>
-
-				<div class="info-contain">
-					<h2 class="title-block">Nome da Tarefa</h2>
-					<p class="description">Descrição da tarefa, o que deve ser feito e muitas informações que explicam melhor do que se trata.</p>
-					<label class="date-limit">Data:<span class="date"> 00/00</span></label>
-
-					<div class="content-submits">
-						<span class="details">Data de inclusão: há 2 semanas</span>
-						<a href="/" class="submit-block btn">Concluir</a>
-						<a href="/" class="submit-block btn late">
-						<span>
-							<svg width="20" height="20" fill="#FFF" xmlns="http://www.w3.org/2000/svg"><path fill-rule="evenodd" clip-rule="evenodd" d="M10 18.305a8.305 8.305 0 100-16.61 8.305 8.305 0 000 16.61zM10 20c5.523 0 10-4.477 10-10S15.523 0 10 0 0 4.477 0 10s4.477 10 10 10z" fill="#FFF"/><path fill-rule="evenodd" clip-rule="evenodd" d="M8.898 4.823h1.356v5.594H15v1.356H8.898v-6.95z" fill="#FFF"/></svg>
-						</span>
-							Alterar Prazo</a>
-					</div>
-					
-				</div>
-
-				<div class="info-tasks">
-					<div class="deadline">Prazo Curto!</div>
-					<div class="clock">
-						<span>
-							<svg width="20" height="20" fill="#FFF" xmlns="http://www.w3.org/2000/svg"><path fill-rule="evenodd" clip-rule="evenodd" d="M10 18.305a8.305 8.305 0 100-16.61 8.305 8.305 0 000 16.61zM10 20c5.523 0 10-4.477 10-10S15.523 0 10 0 0 4.477 0 10s4.477 10 10 10z" fill="#FFF"/><path fill-rule="evenodd" clip-rule="evenodd" d="M8.898 4.823h1.356v5.594H15v1.356H8.898v-6.95z" fill="#FFF"/></svg>
-						</span>
-					</div>
-				</div>
+	<main>
+		<form class="form-search container container-limit">
+			<div class="search-content">
+				<input class="search" type="text" placeholder="Busque Tarefas">
+				<input class="search-submit btn"type="submit" value="Buscar">
 			</div>
 
-			<div class="block-task late">
-				<span class="img-container">
-					<picture>
-						<img src="assets/images/mask.png" alt="Block Imagem">
-					</picture>
-				</span>
+			<div class="filter-content">
+				<span>Organizar por:</span>
+				<label>
+					<select>
+						<option value="true">Prazo</option>
+						<option value="1">Prazo Curto</option>
+						<option value="2">Atrasado</option>
+					</select>
+				</label>
+			</div>
+		</form>
 
-				<div class="info-contain">
-					<h2 class="title-block">Nome da Tarefa</h2>
-					<p class="description">Descrição da tarefa, o que deve ser feito e muitas informações que explicam melhor do que se trata.</p>
-					<label class="date-limit">Data:<span class="date"> 00/00</span><span class="expired-time">Atraso: 3 dias</span></label>
+		<section class="tasks ">
+			<div class="container-limit container">
 
-					<div class="content-submits">
-						<span class="details">Data de inclusão: há 2 semanas</span>
-						<a href="/" class="submit-block btn">Concluir</a>
-						<a href="/" class="submit-block btn late">
-						<span>
-							<svg width="20" height="20" fill="#FFF" xmlns="http://www.w3.org/2000/svg"><path fill-rule="evenodd" clip-rule="evenodd" d="M10 18.305a8.305 8.305 0 100-16.61 8.305 8.305 0 000 16.61zM10 20c5.523 0 10-4.477 10-10S15.523 0 10 0 0 4.477 0 10s4.477 10 10 10z" fill="#FFF"/><path fill-rule="evenodd" clip-rule="evenodd" d="M8.898 4.823h1.356v5.594H15v1.356H8.898v-6.95z" fill="#FFF"/></svg>
-						</span>
-							Alterar Prazo</a>
+				<article class="block-task">
+					<span class="img-container">
+						<picture>
+							<img src="assets/images/mask.png" alt="Block Imagem">
+						</picture>
+					</span>
+
+					<div class="info-contain">
+						<h2 class="title-block">Nome da Tarefa</h2>
+						<p class="description">Descrição da tarefa, o que deve ser feito e muitas informações que explicam melhor do que se trata.</p>
+						<label class="date-limit">Data:<span class="date"> 00/00</span></label>
+
+						<div class="content-submits">
+							<span class="details">Data de inclusão: há 2 semanas</span>
+							<a href="/" class="submit-block btn">Concluir</a>
+							<a href="/" class="submit-block btn late">
+							<span>
+								<svg width="20" height="20" fill="#FFF" xmlns="http://www.w3.org/2000/svg"><path fill-rule="evenodd" clip-rule="evenodd" d="M10 18.305a8.305 8.305 0 100-16.61 8.305 8.305 0 000 16.61zM10 20c5.523 0 10-4.477 10-10S15.523 0 10 0 0 4.477 0 10s4.477 10 10 10z" fill="#FFF"/><path fill-rule="evenodd" clip-rule="evenodd" d="M8.898 4.823h1.356v5.594H15v1.356H8.898v-6.95z" fill="#FFF"/></svg>
+							</span>
+								Alterar Prazo</a>
+						</div>
+						
 					</div>
-					
+
+					<div class="info-tasks">
+						<div class="deadline">Prazo Curto!</div>
+						<div class="clock">
+							<span>
+								<svg width="20" height="20" fill="#FFF" xmlns="http://www.w3.org/2000/svg"><path fill-rule="evenodd" clip-rule="evenodd" d="M10 18.305a8.305 8.305 0 100-16.61 8.305 8.305 0 000 16.61zM10 20c5.523 0 10-4.477 10-10S15.523 0 10 0 0 4.477 0 10s4.477 10 10 10z" fill="#FFF"/><path fill-rule="evenodd" clip-rule="evenodd" d="M8.898 4.823h1.356v5.594H15v1.356H8.898v-6.95z" fill="#FFF"/></svg>
+							</span>
+						</div>
+					</div>
+				</article>
+
+				<article class="block-task late">
+					<span class="img-container">
+						<picture>
+							<img src="assets/images/mask.png" alt="Block Imagem">
+						</picture>
+					</span>
+
+					<div class="info-contain">
+						<h2 class="title-block">Nome da Tarefa</h2>
+						<p class="description">Descrição da tarefa, o que deve ser feito e muitas informações que explicam melhor do que se trata.</p>
+						<label class="date-limit">Data:<span class="date"> 00/00</span><span class="expired-time">Atraso: 3 dias</span></label>
+
+						<div class="content-submits">
+							<span class="details">Data de inclusão: há 2 semanas</span>
+							<a href="/" class="submit-block btn">Concluir</a>
+							<a href="/" class="submit-block btn late">
+							<span>
+								<svg width="20" height="20" fill="#FFF" xmlns="http://www.w3.org/2000/svg"><path fill-rule="evenodd" clip-rule="evenodd" d="M10 18.305a8.305 8.305 0 100-16.61 8.305 8.305 0 000 16.61zM10 20c5.523 0 10-4.477 10-10S15.523 0 10 0 0 4.477 0 10s4.477 10 10 10z" fill="#FFF"/><path fill-rule="evenodd" clip-rule="evenodd" d="M8.898 4.823h1.356v5.594H15v1.356H8.898v-6.95z" fill="#FFF"/></svg>
+							</span>
+								Alterar Prazo</a>
+						</div>
+						
+					</div>
+
+					<div class="info-tasks">
+						<div class="deadline late">Atrasado :(</div>
+						<div class="clock">
+							<span>
+								<svg width="20" height="20" fill="#FFF" xmlns="http://www.w3.org/2000/svg"><path fill-rule="evenodd" clip-rule="evenodd" d="M10 18.305a8.305 8.305 0 100-16.61 8.305 8.305 0 000 16.61zM10 20c5.523 0 10-4.477 10-10S15.523 0 10 0 0 4.477 0 10s4.477 10 10 10z" fill="#FFF"/><path fill-rule="evenodd" clip-rule="evenodd" d="M8.898 4.823h1.356v5.594H15v1.356H8.898v-6.95z" fill="#FFF"/></svg>
+							</span>
+						</div>
+					</div>
+				</article>
+
+				<article class="block-task late">
+					<span class="img-container">
+						<picture>
+							<img src="assets/images/mask.png" alt="Block Imagem">
+						</picture>
+					</span>
+
+					<div class="info-contain">
+						<h2 class="title-block">Nome da Tarefa</h2>
+						<p class="description">Descrição da tarefa, o que deve ser feito e muitas informações que explicam melhor do que se trata.</p>
+						<label class="date-limit">Data:<span class="date"> 00/00</span><span class="expired-time">Atraso: 3 dias</span></label>
+
+						<div class="content-submits">
+							<span class="details">Data de inclusão: há 2 semanas</span>
+							<a href="/" class="submit-block btn">Concluir</a>
+							<a href="/" class="submit-block btn late">
+							<span>
+								<svg width="20" height="20" fill="#FFF" xmlns="http://www.w3.org/2000/svg"><path fill-rule="evenodd" clip-rule="evenodd" d="M10 18.305a8.305 8.305 0 100-16.61 8.305 8.305 0 000 16.61zM10 20c5.523 0 10-4.477 10-10S15.523 0 10 0 0 4.477 0 10s4.477 10 10 10z" fill="#FFF"/><path fill-rule="evenodd" clip-rule="evenodd" d="M8.898 4.823h1.356v5.594H15v1.356H8.898v-6.95z" fill="#FFF"/></svg>
+							</span>
+								Alterar Prazo</a>
+						</div>
+						
+					</div>
+
+					<div class="info-tasks">
+						<div class="deadline late">Atrasado :(</div>
+						<div class="clock">
+							<span>
+								<svg width="20" height="20" fill="#FFF" xmlns="http://www.w3.org/2000/svg"><path fill-rule="evenodd" clip-rule="evenodd" d="M10 18.305a8.305 8.305 0 100-16.61 8.305 8.305 0 000 16.61zM10 20c5.523 0 10-4.477 10-10S15.523 0 10 0 0 4.477 0 10s4.477 10 10 10z" fill="#FFF"/><path fill-rule="evenodd" clip-rule="evenodd" d="M8.898 4.823h1.356v5.594H15v1.356H8.898v-6.95z" fill="#FFF"/></svg>
+							</span>
+						</div>
+					</div>
+				</article>
+
+				<article class="block-task late">
+					<span class="img-container">
+						<picture>
+							<img src="assets/images/mask.png" alt="Block Imagem">
+						</picture>
+					</span>
+
+					<div class="info-contain">
+						<h2 class="title-block">Nome da Tarefa</h2>
+						<p class="description">Descrição da tarefa, o que deve ser feito e muitas informações que explicam melhor do que se trata.</p>
+						<label class="date-limit">Data:<span class="date"> 00/00</span><span class="expired-time">Atraso: 3 dias</span></label>
+
+						<div class="content-submits">
+							<span class="details">Data de inclusão: há 2 semanas</span>
+							<a href="/" class="submit-block btn">Concluir</a>
+							<a href="/" class="submit-block btn late">
+							<span>
+								<svg width="20" height="20" fill="#FFF" xmlns="http://www.w3.org/2000/svg"><path fill-rule="evenodd" clip-rule="evenodd" d="M10 18.305a8.305 8.305 0 100-16.61 8.305 8.305 0 000 16.61zM10 20c5.523 0 10-4.477 10-10S15.523 0 10 0 0 4.477 0 10s4.477 10 10 10z" fill="#FFF"/><path fill-rule="evenodd" clip-rule="evenodd" d="M8.898 4.823h1.356v5.594H15v1.356H8.898v-6.95z" fill="#FFF"/></svg>
+							</span>
+								Alterar Prazo</a>
+						</div>
+						
+					</div>
+
+					<div class="info-tasks">
+						<div class="deadline late">Atrasado :(</div>
+						<div class="clock">
+							<span>
+								<svg width="20" height="20" fill="#FFF" xmlns="http://www.w3.org/2000/svg"><path fill-rule="evenodd" clip-rule="evenodd" d="M10 18.305a8.305 8.305 0 100-16.61 8.305 8.305 0 000 16.61zM10 20c5.523 0 10-4.477 10-10S15.523 0 10 0 0 4.477 0 10s4.477 10 10 10z" fill="#FFF"/><path fill-rule="evenodd" clip-rule="evenodd" d="M8.898 4.823h1.356v5.594H15v1.356H8.898v-6.95z" fill="#FFF"/></svg>
+							</span>
+						</div>
+					</div>
+				</article>
+
+				<article class="block-task late">
+					<span class="img-container">
+						<picture>
+							<img src="assets/images/mask.png" alt="Block Imagem">
+						</picture>
+					</span>
+
+					<div class="info-contain">
+						<h2 class="title-block">Nome da Tarefa</h2>
+						<p class="description">Descrição da tarefa, o que deve ser feito e muitas informações que explicam melhor do que se trata.</p>
+						<label class="date-limit">Data:<span class="date"> 00/00</span><span class="expired-time">Atraso: 3 dias</span></label>
+
+						<div class="content-submits">
+							<span class="details">Data de inclusão: há 2 semanas</span>
+							<a href="/" class="submit-block btn">Concluir</a>
+							<a href="/" class="submit-block btn late">
+							<span>
+								<svg width="20" height="20" fill="#FFF" xmlns="http://www.w3.org/2000/svg"><path fill-rule="evenodd" clip-rule="evenodd" d="M10 18.305a8.305 8.305 0 100-16.61 8.305 8.305 0 000 16.61zM10 20c5.523 0 10-4.477 10-10S15.523 0 10 0 0 4.477 0 10s4.477 10 10 10z" fill="#FFF"/><path fill-rule="evenodd" clip-rule="evenodd" d="M8.898 4.823h1.356v5.594H15v1.356H8.898v-6.95z" fill="#FFF"/></svg>
+							</span>
+								Alterar Prazo</a>
+						</div>
+						
+					</div>
+
+					<div class="info-tasks">
+						<div class="deadline late">Atrasado :(</div>
+						<div class="clock">
+							<span>
+								<svg width="20" height="20" fill="#FFF" xmlns="http://www.w3.org/2000/svg"><path fill-rule="evenodd" clip-rule="evenodd" d="M10 18.305a8.305 8.305 0 100-16.61 8.305 8.305 0 000 16.61zM10 20c5.523 0 10-4.477 10-10S15.523 0 10 0 0 4.477 0 10s4.477 10 10 10z" fill="#FFF"/><path fill-rule="evenodd" clip-rule="evenodd" d="M8.898 4.823h1.356v5.594H15v1.356H8.898v-6.95z" fill="#FFF"/></svg>
+							</span>
+						</div>
+					</div>
+				</article>
+
+				<article class="block-task late">
+					<span class="img-container">
+						<picture>
+							<img src="assets/images/mask.png" alt="Block Imagem">
+						</picture>
+					</span>
+
+					<div class="info-contain">
+						<h2 class="title-block">Nome da Tarefa</h2>
+						<p class="description">Descrição da tarefa, o que deve ser feito e muitas informações que explicam melhor do que se trata.</p>
+						<label class="date-limit">Data:<span class="date"> 00/00</span><span class="expired-time">Atraso: 3 dias</span></label>
+
+						<div class="content-submits">
+							<span class="details">Data de inclusão: há 2 semanas</span>
+							<a href="/" class="submit-block btn">Concluir</a>
+							<a href="/" class="submit-block btn late">
+							<span>
+								<svg width="20" height="20" fill="#FFF" xmlns="http://www.w3.org/2000/svg"><path fill-rule="evenodd" clip-rule="evenodd" d="M10 18.305a8.305 8.305 0 100-16.61 8.305 8.305 0 000 16.61zM10 20c5.523 0 10-4.477 10-10S15.523 0 10 0 0 4.477 0 10s4.477 10 10 10z" fill="#FFF"/><path fill-rule="evenodd" clip-rule="evenodd" d="M8.898 4.823h1.356v5.594H15v1.356H8.898v-6.95z" fill="#FFF"/></svg>
+							</span>
+								Alterar Prazo</a>
+						</div>
+						
+					</div>
+
+					<div class="info-tasks">
+						<div class="deadline late">Atrasado :(</div>
+						<div class="clock">
+							<span>
+								<svg width="20" height="20" fill="#FFF" xmlns="http://www.w3.org/2000/svg"><path fill-rule="evenodd" clip-rule="evenodd" d="M10 18.305a8.305 8.305 0 100-16.61 8.305 8.305 0 000 16.61zM10 20c5.523 0 10-4.477 10-10S15.523 0 10 0 0 4.477 0 10s4.477 10 10 10z" fill="#FFF"/><path fill-rule="evenodd" clip-rule="evenodd" d="M8.898 4.823h1.356v5.594H15v1.356H8.898v-6.95z" fill="#FFF"/></svg>
+							</span>
+						</div>
+					</div>
+				</article>
+
+				<article class="block-task late">
+					<span class="img-container">
+						<picture>
+							<img src="assets/images/mask.png" alt="Block Imagem">
+						</picture>
+					</span>
+
+					<div class="info-contain">
+						<h2 class="title-block">Nome da Tarefa</h2>
+						<p class="description">Descrição da tarefa, o que deve ser feito e muitas informações que explicam melhor do que se trata.</p>
+						<label class="date-limit">Data:<span class="date"> 00/00</span><span class="expired-time">Atraso: 3 dias</span></label>
+
+						<div class="content-submits">
+							<span class="details">Data de inclusão: há 2 semanas</span>
+							<a href="/" class="submit-block btn">Concluir</a>
+							<a href="/" class="submit-block btn late">
+							<span>
+								<svg width="20" height="20" fill="#FFF" xmlns="http://www.w3.org/2000/svg"><path fill-rule="evenodd" clip-rule="evenodd" d="M10 18.305a8.305 8.305 0 100-16.61 8.305 8.305 0 000 16.61zM10 20c5.523 0 10-4.477 10-10S15.523 0 10 0 0 4.477 0 10s4.477 10 10 10z" fill="#FFF"/><path fill-rule="evenodd" clip-rule="evenodd" d="M8.898 4.823h1.356v5.594H15v1.356H8.898v-6.95z" fill="#FFF"/></svg>
+							</span>
+								Alterar Prazo</a>
+						</div>
+						
+					</div>
+
+					<div class="info-tasks">
+						<div class="deadline late">Atrasado :(</div>
+						<div class="clock">
+							<span>
+								<svg width="20" height="20" fill="#FFF" xmlns="http://www.w3.org/2000/svg"><path fill-rule="evenodd" clip-rule="evenodd" d="M10 18.305a8.305 8.305 0 100-16.61 8.305 8.305 0 000 16.61zM10 20c5.523 0 10-4.477 10-10S15.523 0 10 0 0 4.477 0 10s4.477 10 10 10z" fill="#FFF"/><path fill-rule="evenodd" clip-rule="evenodd" d="M8.898 4.823h1.356v5.594H15v1.356H8.898v-6.95z" fill="#FFF"/></svg>
+							</span>
+						</div>
+					</div>
+				</article>
+
+				<article class="block-task late">
+					<span class="img-container">
+						<picture>
+							<img src="assets/images/mask.png" alt="Block Imagem">
+						</picture>
+					</span>
+
+					<div class="info-contain">
+						<h2 class="title-block">Nome da Tarefa</h2>
+						<p class="description">Descrição da tarefa, o que deve ser feito e muitas informações que explicam melhor do que se trata.</p>
+						<label class="date-limit">Data:<span class="date"> 00/00</span><span class="expired-time">Atraso: 3 dias</span></label>
+
+						<div class="content-submits">
+							<span class="details">Data de inclusão: há 2 semanas</span>
+							<a href="/" class="submit-block btn">Concluir</a>
+							<a href="/" class="submit-block btn late">
+							<span>
+								<svg width="20" height="20" fill="#FFF" xmlns="http://www.w3.org/2000/svg"><path fill-rule="evenodd" clip-rule="evenodd" d="M10 18.305a8.305 8.305 0 100-16.61 8.305 8.305 0 000 16.61zM10 20c5.523 0 10-4.477 10-10S15.523 0 10 0 0 4.477 0 10s4.477 10 10 10z" fill="#FFF"/><path fill-rule="evenodd" clip-rule="evenodd" d="M8.898 4.823h1.356v5.594H15v1.356H8.898v-6.95z" fill="#FFF"/></svg>
+							</span>
+								Alterar Prazo</a>
+						</div>
+						
+					</div>
+
+					<div class="info-tasks">
+						<div class="deadline late">Atrasado :(</div>
+						<div class="clock">
+							<span>
+								<svg width="20" height="20" fill="#FFF" xmlns="http://www.w3.org/2000/svg"><path fill-rule="evenodd" clip-rule="evenodd" d="M10 18.305a8.305 8.305 0 100-16.61 8.305 8.305 0 000 16.61zM10 20c5.523 0 10-4.477 10-10S15.523 0 10 0 0 4.477 0 10s4.477 10 10 10z" fill="#FFF"/><path fill-rule="evenodd" clip-rule="evenodd" d="M8.898 4.823h1.356v5.594H15v1.356H8.898v-6.95z" fill="#FFF"/></svg>
+							</span>
+						</div>
+					</div>
+				</article>
+
+				<button class="load-more btn">VER MAIS +</button>
+
+			</div>
+		</section>
+
+		<section class="newsletter container container-limit">
+
+			<div class="form-header">
+				<h1>Quer receber dicas para organizar melhor a sua rotina? Cadastre-se!</h1>
+			</div>
+			<div class="form-content ">
+				<form id="form-newsletter">
+					<div class="form-group">
+						<label for="username">nome<small></small></label>
+						<input type="text" id="username" name="username" required="required" placeholder="Digite seu nome">
+					</div>
+					<div class="form-group">
+						<label for="e-mail">e-mail<small></small></label>
+						<input type="email" id="e-mail" name="e-mail" required="required" placeholder="Digite seu e-mail">
+					</div>
+					<div class="form-group">
+						<button class="btn feedback" type="submit">Cadastrar</button>
+					</div>
+				</form>
+			</div>
+		</section>
+
+		<section class="whoami">
+			<div class="container container-limit">
+				<div class="logo">
+					<img src="assets/images/logo.png" alt="Linx">
 				</div>
 
-				<div class="info-tasks">
-					<div class="deadline late">Atrasado :(</div>
-					<div class="clock">
-						<span>
-							<svg width="20" height="20" fill="#FFF" xmlns="http://www.w3.org/2000/svg"><path fill-rule="evenodd" clip-rule="evenodd" d="M10 18.305a8.305 8.305 0 100-16.61 8.305 8.305 0 000 16.61zM10 20c5.523 0 10-4.477 10-10S15.523 0 10 0 0 4.477 0 10s4.477 10 10 10z" fill="#FFF"/><path fill-rule="evenodd" clip-rule="evenodd" d="M8.898 4.823h1.356v5.594H15v1.356H8.898v-6.95z" fill="#FFF"/></svg>
-						</span>
-					</div>
+				<div class="whoami-text">
+					<p>A Linx é uma empresa brasileira especialista em tecnologia para o varejo. Líder no mercado de software de gestão, com 45,6% de market share do mercado varejista, conforme atesta o IDC.</p>
+					<p>Toda a expertise da Linx na jornada de compra é transformada em insights fundamentais para atingir o que os varejistas mais esperam: fidelizar seus consumidores e atingir resultados concretos e relevantes.</p>
+					<p>Com capital aberto na B3 desde 2013, a Linx também se tornou a primeira empresa brasileira de software com capital aberto na NYSE, em 2019. A empresa possui mais de 3,5 mil colaboradores distribuídos entre sua sede em São Paulo, 15 filiais pelo Brasil e 5 países da América. Para saber mais, acesse linx.com.br/imprensa.</p>
 				</div>
 			</div>
+		</section>
 
-			<div class="block-task late">
-				<span class="img-container">
-					<picture>
-						<img src="assets/images/mask.png" alt="Block Imagem">
-					</picture>
-				</span>
+	</main>
 
-				<div class="info-contain">
-					<h2 class="title-block">Nome da Tarefa</h2>
-					<p class="description">Descrição da tarefa, o que deve ser feito e muitas informações que explicam melhor do que se trata.</p>
-					<label class="date-limit">Data:<span class="date"> 00/00</span><span class="expired-time">Atraso: 3 dias</span></label>
 
-					<div class="content-submits">
-						<span class="details">Data de inclusão: há 2 semanas</span>
-						<a href="/" class="submit-block btn">Concluir</a>
-						<a href="/" class="submit-block btn late">
-						<span>
-							<svg width="20" height="20" fill="#FFF" xmlns="http://www.w3.org/2000/svg"><path fill-rule="evenodd" clip-rule="evenodd" d="M10 18.305a8.305 8.305 0 100-16.61 8.305 8.305 0 000 16.61zM10 20c5.523 0 10-4.477 10-10S15.523 0 10 0 0 4.477 0 10s4.477 10 10 10z" fill="#FFF"/><path fill-rule="evenodd" clip-rule="evenodd" d="M8.898 4.823h1.356v5.594H15v1.356H8.898v-6.95z" fill="#FFF"/></svg>
-						</span>
-							Alterar Prazo</a>
-					</div>
-					
-				</div>
 
-				<div class="info-tasks">
-					<div class="deadline late">Atrasado :(</div>
-					<div class="clock">
-						<span>
-							<svg width="20" height="20" fill="#FFF" xmlns="http://www.w3.org/2000/svg"><path fill-rule="evenodd" clip-rule="evenodd" d="M10 18.305a8.305 8.305 0 100-16.61 8.305 8.305 0 000 16.61zM10 20c5.523 0 10-4.477 10-10S15.523 0 10 0 0 4.477 0 10s4.477 10 10 10z" fill="#FFF"/><path fill-rule="evenodd" clip-rule="evenodd" d="M8.898 4.823h1.356v5.594H15v1.356H8.898v-6.95z" fill="#FFF"/></svg>
-						</span>
-					</div>
-				</div>
+		<footer>
+			<div class="container container-limit">
+				<p>Testando suas habilidades em HTML e CSS. <br>Linx Impulse 2021 <br>Teste ficcional!</p>
 			</div>
-
-			<div class="block-task late">
-				<span class="img-container">
-					<picture>
-						<img src="assets/images/mask.png" alt="Block Imagem">
-					</picture>
-				</span>
-
-				<div class="info-contain">
-					<h2 class="title-block">Nome da Tarefa</h2>
-					<p class="description">Descrição da tarefa, o que deve ser feito e muitas informações que explicam melhor do que se trata.</p>
-					<label class="date-limit">Data:<span class="date"> 00/00</span><span class="expired-time">Atraso: 3 dias</span></label>
-
-					<div class="content-submits">
-						<span class="details">Data de inclusão: há 2 semanas</span>
-						<a href="/" class="submit-block btn">Concluir</a>
-						<a href="/" class="submit-block btn late">
-						<span>
-							<svg width="20" height="20" fill="#FFF" xmlns="http://www.w3.org/2000/svg"><path fill-rule="evenodd" clip-rule="evenodd" d="M10 18.305a8.305 8.305 0 100-16.61 8.305 8.305 0 000 16.61zM10 20c5.523 0 10-4.477 10-10S15.523 0 10 0 0 4.477 0 10s4.477 10 10 10z" fill="#FFF"/><path fill-rule="evenodd" clip-rule="evenodd" d="M8.898 4.823h1.356v5.594H15v1.356H8.898v-6.95z" fill="#FFF"/></svg>
-						</span>
-							Alterar Prazo</a>
-					</div>
-					
-				</div>
-
-				<div class="info-tasks">
-					<div class="deadline late">Atrasado :(</div>
-					<div class="clock">
-						<span>
-							<svg width="20" height="20" fill="#FFF" xmlns="http://www.w3.org/2000/svg"><path fill-rule="evenodd" clip-rule="evenodd" d="M10 18.305a8.305 8.305 0 100-16.61 8.305 8.305 0 000 16.61zM10 20c5.523 0 10-4.477 10-10S15.523 0 10 0 0 4.477 0 10s4.477 10 10 10z" fill="#FFF"/><path fill-rule="evenodd" clip-rule="evenodd" d="M8.898 4.823h1.356v5.594H15v1.356H8.898v-6.95z" fill="#FFF"/></svg>
-						</span>
-					</div>
-				</div>
-			</div>
-
-			<div class="block-task late">
-				<span class="img-container">
-					<picture>
-						<img src="assets/images/mask.png" alt="Block Imagem">
-					</picture>
-				</span>
-
-				<div class="info-contain">
-					<h2 class="title-block">Nome da Tarefa</h2>
-					<p class="description">Descrição da tarefa, o que deve ser feito e muitas informações que explicam melhor do que se trata.</p>
-					<label class="date-limit">Data:<span class="date"> 00/00</span><span class="expired-time">Atraso: 3 dias</span></label>
-
-					<div class="content-submits">
-						<span class="details">Data de inclusão: há 2 semanas</span>
-						<a href="/" class="submit-block btn">Concluir</a>
-						<a href="/" class="submit-block btn late">
-						<span>
-							<svg width="20" height="20" fill="#FFF" xmlns="http://www.w3.org/2000/svg"><path fill-rule="evenodd" clip-rule="evenodd" d="M10 18.305a8.305 8.305 0 100-16.61 8.305 8.305 0 000 16.61zM10 20c5.523 0 10-4.477 10-10S15.523 0 10 0 0 4.477 0 10s4.477 10 10 10z" fill="#FFF"/><path fill-rule="evenodd" clip-rule="evenodd" d="M8.898 4.823h1.356v5.594H15v1.356H8.898v-6.95z" fill="#FFF"/></svg>
-						</span>
-							Alterar Prazo</a>
-					</div>
-					
-				</div>
-
-				<div class="info-tasks">
-					<div class="deadline late">Atrasado :(</div>
-					<div class="clock">
-						<span>
-							<svg width="20" height="20" fill="#FFF" xmlns="http://www.w3.org/2000/svg"><path fill-rule="evenodd" clip-rule="evenodd" d="M10 18.305a8.305 8.305 0 100-16.61 8.305 8.305 0 000 16.61zM10 20c5.523 0 10-4.477 10-10S15.523 0 10 0 0 4.477 0 10s4.477 10 10 10z" fill="#FFF"/><path fill-rule="evenodd" clip-rule="evenodd" d="M8.898 4.823h1.356v5.594H15v1.356H8.898v-6.95z" fill="#FFF"/></svg>
-						</span>
-					</div>
-				</div>
-			</div>
-
-			<div class="block-task late">
-				<span class="img-container">
-					<picture>
-						<img src="assets/images/mask.png" alt="Block Imagem">
-					</picture>
-				</span>
-
-				<div class="info-contain">
-					<h2 class="title-block">Nome da Tarefa</h2>
-					<p class="description">Descrição da tarefa, o que deve ser feito e muitas informações que explicam melhor do que se trata.</p>
-					<label class="date-limit">Data:<span class="date"> 00/00</span><span class="expired-time">Atraso: 3 dias</span></label>
-
-					<div class="content-submits">
-						<span class="details">Data de inclusão: há 2 semanas</span>
-						<a href="/" class="submit-block btn">Concluir</a>
-						<a href="/" class="submit-block btn late">
-						<span>
-							<svg width="20" height="20" fill="#FFF" xmlns="http://www.w3.org/2000/svg"><path fill-rule="evenodd" clip-rule="evenodd" d="M10 18.305a8.305 8.305 0 100-16.61 8.305 8.305 0 000 16.61zM10 20c5.523 0 10-4.477 10-10S15.523 0 10 0 0 4.477 0 10s4.477 10 10 10z" fill="#FFF"/><path fill-rule="evenodd" clip-rule="evenodd" d="M8.898 4.823h1.356v5.594H15v1.356H8.898v-6.95z" fill="#FFF"/></svg>
-						</span>
-							Alterar Prazo</a>
-					</div>
-					
-				</div>
-
-				<div class="info-tasks">
-					<div class="deadline late">Atrasado :(</div>
-					<div class="clock">
-						<span>
-							<svg width="20" height="20" fill="#FFF" xmlns="http://www.w3.org/2000/svg"><path fill-rule="evenodd" clip-rule="evenodd" d="M10 18.305a8.305 8.305 0 100-16.61 8.305 8.305 0 000 16.61zM10 20c5.523 0 10-4.477 10-10S15.523 0 10 0 0 4.477 0 10s4.477 10 10 10z" fill="#FFF"/><path fill-rule="evenodd" clip-rule="evenodd" d="M8.898 4.823h1.356v5.594H15v1.356H8.898v-6.95z" fill="#FFF"/></svg>
-						</span>
-					</div>
-				</div>
-			</div>
-
-			<div class="block-task late">
-				<span class="img-container">
-					<picture>
-						<img src="assets/images/mask.png" alt="Block Imagem">
-					</picture>
-				</span>
-
-				<div class="info-contain">
-					<h2 class="title-block">Nome da Tarefa</h2>
-					<p class="description">Descrição da tarefa, o que deve ser feito e muitas informações que explicam melhor do que se trata.</p>
-					<label class="date-limit">Data:<span class="date"> 00/00</span><span class="expired-time">Atraso: 3 dias</span></label>
-
-					<div class="content-submits">
-						<span class="details">Data de inclusão: há 2 semanas</span>
-						<a href="/" class="submit-block btn">Concluir</a>
-						<a href="/" class="submit-block btn late">
-						<span>
-							<svg width="20" height="20" fill="#FFF" xmlns="http://www.w3.org/2000/svg"><path fill-rule="evenodd" clip-rule="evenodd" d="M10 18.305a8.305 8.305 0 100-16.61 8.305 8.305 0 000 16.61zM10 20c5.523 0 10-4.477 10-10S15.523 0 10 0 0 4.477 0 10s4.477 10 10 10z" fill="#FFF"/><path fill-rule="evenodd" clip-rule="evenodd" d="M8.898 4.823h1.356v5.594H15v1.356H8.898v-6.95z" fill="#FFF"/></svg>
-						</span>
-							Alterar Prazo</a>
-					</div>
-					
-				</div>
-
-				<div class="info-tasks">
-					<div class="deadline late">Atrasado :(</div>
-					<div class="clock">
-						<span>
-							<svg width="20" height="20" fill="#FFF" xmlns="http://www.w3.org/2000/svg"><path fill-rule="evenodd" clip-rule="evenodd" d="M10 18.305a8.305 8.305 0 100-16.61 8.305 8.305 0 000 16.61zM10 20c5.523 0 10-4.477 10-10S15.523 0 10 0 0 4.477 0 10s4.477 10 10 10z" fill="#FFF"/><path fill-rule="evenodd" clip-rule="evenodd" d="M8.898 4.823h1.356v5.594H15v1.356H8.898v-6.95z" fill="#FFF"/></svg>
-						</span>
-					</div>
-				</div>
-			</div>
-
-			<div class="block-task late">
-				<span class="img-container">
-					<picture>
-						<img src="assets/images/mask.png" alt="Block Imagem">
-					</picture>
-				</span>
-
-				<div class="info-contain">
-					<h2 class="title-block">Nome da Tarefa</h2>
-					<p class="description">Descrição da tarefa, o que deve ser feito e muitas informações que explicam melhor do que se trata.</p>
-					<label class="date-limit">Data:<span class="date"> 00/00</span><span class="expired-time">Atraso: 3 dias</span></label>
-
-					<div class="content-submits">
-						<span class="details">Data de inclusão: há 2 semanas</span>
-						<a href="/" class="submit-block btn">Concluir</a>
-						<a href="/" class="submit-block btn late">
-						<span>
-							<svg width="20" height="20" fill="#FFF" xmlns="http://www.w3.org/2000/svg"><path fill-rule="evenodd" clip-rule="evenodd" d="M10 18.305a8.305 8.305 0 100-16.61 8.305 8.305 0 000 16.61zM10 20c5.523 0 10-4.477 10-10S15.523 0 10 0 0 4.477 0 10s4.477 10 10 10z" fill="#FFF"/><path fill-rule="evenodd" clip-rule="evenodd" d="M8.898 4.823h1.356v5.594H15v1.356H8.898v-6.95z" fill="#FFF"/></svg>
-						</span>
-							Alterar Prazo</a>
-					</div>
-					
-				</div>
-
-				<div class="info-tasks">
-					<div class="deadline late">Atrasado :(</div>
-					<div class="clock">
-						<span>
-							<svg width="20" height="20" fill="#FFF" xmlns="http://www.w3.org/2000/svg"><path fill-rule="evenodd" clip-rule="evenodd" d="M10 18.305a8.305 8.305 0 100-16.61 8.305 8.305 0 000 16.61zM10 20c5.523 0 10-4.477 10-10S15.523 0 10 0 0 4.477 0 10s4.477 10 10 10z" fill="#FFF"/><path fill-rule="evenodd" clip-rule="evenodd" d="M8.898 4.823h1.356v5.594H15v1.356H8.898v-6.95z" fill="#FFF"/></svg>
-						</span>
-					</div>
-				</div>
-			</div>
-
-			<button class="load-more btn">VER MAIS +</button>
-
-		</div>
-	</div>
-
-	<div class="newsletter container container-limit">
-
-		<div class="form-header">
-			<h1>Quer receber dicas para organizar melhor a sua rotina? Cadastre-se!</h1>
-		</div>
-		<div class="form-content ">
-			<form id="form-newsletter">
-				<div class="form-group">
-					<label for="username">nome<small></small></label>
-					<input type="text" id="username" name="username" required="required" placeholder="Digite seu nome">
-				</div>
-				<div class="form-group">
-					<label for="e-mail">e-mail<small></small></label>
-					<input type="email" id="e-mail" name="e-mail" required="required" placeholder="Digite seu e-mail">
-				</div>
-				<div class="form-group">
-					<button class="btn feedback" type="submit">Cadastrar</button>
-				</div>
-			</form>
-		</div>
-	</div>
-
-	<div class="whoami">
-		<div class="container container-limit">
-			<div class="logo">
-				<img src="assets/images/logo.png" alt="Linx">
-			</div>
-
-			<div class="whoami-text">
-				<p>A Linx é uma empresa brasileira especialista em tecnologia para o varejo. Líder no mercado de software de gestão, com 45,6% de market share do mercado varejista, conforme atesta o IDC.</p>
-				<p>Toda a expertise da Linx na jornada de compra é transformada em insights fundamentais para atingir o que os varejistas mais esperam: fidelizar seus consumidores e atingir resultados concretos e relevantes.</p>
-				<p>Com capital aberto na B3 desde 2013, a Linx também se tornou a primeira empresa brasileira de software com capital aberto na NYSE, em 2019. A empresa possui mais de 3,5 mil colaboradores distribuídos entre sua sede em São Paulo, 15 filiais pelo Brasil e 5 países da América. Para saber mais, acesse linx.com.br/imprensa.</p>
-			</div>
-		</div>
-	</div>
-
-
-
-	<footer>
-		<div class="container container-limit">
-			<p>Testando suas habilidades em HTML e CSS. <br>Linx Impulse 2021 <br>Teste ficcional!</p>
-		</div>
-	</footer>
+		</footer>
 
 
 </body>
